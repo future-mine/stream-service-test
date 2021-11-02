@@ -1,0 +1,376 @@
+{
+    "data": [
+        {
+            "id": "44272887549",
+            "user_id": "71092938",
+            "user_login": "xqcow",
+            "user_name": "xQcOW",
+            "game_id": "32982",
+            "game_name": "Grand Theft Auto V",
+            "type": "live",
+            "title": "LOST MAN TURNING INTO SKELETON FORM DOESNT BACK DOWN FROM ANY CHALLENGES AND SURMOUNTS ALL POSSIBLE HURDLES (GODLIKE GAME INSANE PHARAOH)",
+            "viewer_count": 74803,
+            "started_at": "2021-11-01T00:21:33Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xqcow-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "2193eee1-b8f0-43bd-a6d9-dba8a67528a1"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "40164736747",
+            "user_id": "30104304",
+            "user_login": "maximilian_dood",
+            "user_name": "Maximilian_DOOD",
+            "game_id": "1068239917",
+            "game_name": "Mario Party Superstars",
+            "type": "live",
+            "title": "ITS'A MARIO PARTY HALLOWEEN...WOOHOOO !hellofresh (Sun 10-31)",
+            "viewer_count": 11187,
+            "started_at": "2021-11-01T04:24:48Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maximilian_dood-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "43683286572",
+            "user_id": "505902512",
+            "user_login": "samueletienne",
+            "user_name": "samueletienne",
+            "game_id": "509658",
+            "game_name": "Just Chatting",
+            "type": "live",
+            "title": "#LaMatinéeEstTienne, on lit les journaux ensemble, on en parle ensemble, et de la vie aussi !",
+            "viewer_count": 10449,
+            "started_at": "2021-11-01T08:08:22Z",
+            "language": "fr",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_samueletienne-{width}x{height}.jpg",
+            "tag_ids": [
+                "6f655045-9989-4ef7-8f85-1edcec42d648"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44272605485",
+            "user_id": "45302947",
+            "user_login": "iitztimmy",
+            "user_name": "iiTzTimmy",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "Testing if Iron to radiant in one stream is possible // Follow my socials @iiTzTimmy",
+            "viewer_count": 9912,
+            "started_at": "2021-10-31T23:53:28Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_iitztimmy-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44273461021",
+            "user_id": "181077473",
+            "user_login": "gaules",
+            "user_name": "Gaules",
+            "game_id": "32399",
+            "game_name": "Counter-Strike: Global Offensive",
+            "type": "live",
+            "title": "Rerun: Major PGL Live 6:00am - !Prime Siga @gaules nas redes sociais",
+            "viewer_count": 9114,
+            "started_at": "2021-11-01T01:20:12Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gaules-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "40165208347",
+            "user_id": "77415295",
+            "user_login": "jasper7se",
+            "user_name": "Jasper7se",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "レディアントの景色見せる",
+            "viewer_count": 8721,
+            "started_at": "2021-11-01T08:19:45Z",
+            "language": "ja",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jasper7se-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ba1d230-e52f-4d81-b1e0-41f25a8a9f5d"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "40164850699",
+            "user_id": "60216187",
+            "user_login": "simcopter1",
+            "user_name": "SimCopter1",
+            "game_id": "509538",
+            "game_name": "Animal Crossing: New Horizons",
+            "type": "live",
+            "title": "Happy Halloween! Hi I'm Leif btw *happy sloth sounds* 🦥",
+            "viewer_count": 8532,
+            "started_at": "2021-11-01T05:15:07Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_simcopter1-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "adc4a830-07f5-457b-95e5-5ab6cc1f9af3",
+                "e90b5f6e-4c6e-4003-885b-4d0d5adeb580",
+                "1277e554-f8c9-4795-a475-27418d7bd111",
+                "6fd5b307-df1b-414c-baa3-634cc6ca6940",
+                "8a01ea18-df97-4046-9cff-a9a822bb96e5",
+                "c2839af5-f1d2-46c4-8edc-1d0bfbd85070"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44275627837",
+            "user_id": "12943173",
+            "user_login": "pokelawls",
+            "user_name": "pokelawls",
+            "game_id": "2069330253",
+            "game_name": "Despot's Game",
+            "type": "live",
+            "title": "NIGHT GANG... react? RP? who knows lets find out | !pobox",
+            "viewer_count": 7908,
+            "started_at": "2021-11-01T06:17:11Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_pokelawls-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "43666916060",
+            "user_id": "40784764",
+            "user_login": "shlorox",
+            "user_name": "Shlorox",
+            "game_id": "509658",
+            "game_name": "Just Chatting",
+            "type": "live",
+            "title": "Halloween Event! | 121h | Eventlocation",
+            "viewer_count": 7875,
+            "started_at": "2021-10-30T14:29:16Z",
+            "language": "de",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_shlorox-{width}x{height}.jpg",
+            "tag_ids": [
+                "9166ad14-41f1-4b04-a3b8-c8eb838c6be6"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "43683279132",
+            "user_id": "178413200",
+            "user_login": "torontotokyo17",
+            "user_name": "TORONTOTOKYO17",
+            "game_id": "29595",
+            "game_name": "Dota 2",
+            "type": "live",
+            "title": "main(novoice)",
+            "viewer_count": 7661,
+            "started_at": "2021-11-01T08:05:46Z",
+            "language": "ru",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_torontotokyo17-{width}x{height}.jpg",
+            "tag_ids": [
+                "0569b171-2a2b-476e-a596-5bdfb45a1327"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "40164674955",
+            "user_id": "31113075",
+            "user_login": "iceiceice",
+            "user_name": "iceiceice",
+            "game_id": "29595",
+            "game_name": "Dota 2",
+            "type": "live",
+            "title": "more marci ",
+            "viewer_count": 7634,
+            "started_at": "2021-11-01T03:59:45Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_iceiceice-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "40163798043",
+            "user_id": "38881685",
+            "user_login": "boxbox",
+            "user_name": "boxbox",
+            "game_id": "513143",
+            "game_name": "Teamfight Tactics",
+            "type": "live",
+            "title": "late nite tft pbe set 6 w/ friends| !HelloFresh",
+            "viewer_count": 7137,
+            "started_at": "2021-10-31T22:51:15Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_boxbox-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44275621645",
+            "user_id": "66375105",
+            "user_login": "zilioner",
+            "user_name": "침착맨",
+            "game_id": "495202",
+            "game_name": "Fire Emblem: Three Houses",
+            "type": "live",
+            "title": "파이어엠블렘 풍화설월 (하드/클래식)",
+            "viewer_count": 6797,
+            "started_at": "2021-11-01T06:15:53Z",
+            "language": "ko",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zilioner-{width}x{height}.jpg",
+            "tag_ids": [
+                "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44271061069",
+            "user_id": "245226810",
+            "user_login": "jelty",
+            "user_name": "Jelty",
+            "game_id": "498592",
+            "game_name": "I'm Only Sleeping",
+            "type": "live",
+            "title": "🔹EXTENDIBLE CON LIMITE DE 2 MESES [LLEVO 11HRS] EN DIRECTO🔴|| !extendible",
+            "viewer_count": 6750,
+            "started_at": "2021-10-31T21:01:25Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jelty-{width}x{height}.jpg",
+            "tag_ids": [
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44276017293",
+            "user_id": "160504245",
+            "user_login": "39daph",
+            "user_name": "39daph",
+            "game_id": "494242",
+            "game_name": "Finding Paradise",
+            "type": "live",
+            "title": "where boys become men (gender neutral)",
+            "viewer_count": 6474,
+            "started_at": "2021-11-01T07:45:17Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_39daph-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "396aee63-bb8a-43c4-95da-98fca08e144b",
+                "c1ea4496-4418-4a4f-bc30-083cfc6a616b"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44276284541",
+            "user_id": "737137464",
+            "user_login": "yatoro_gxg",
+            "user_name": "yatoro_gxg",
+            "game_id": "29595",
+            "game_name": "Dota 2",
+            "type": "live",
+            "title": "@yatoro.БОЛЕЛ ЗА SPIRIT",
+            "viewer_count": 6182,
+            "started_at": "2021-11-01T08:56:49Z",
+            "language": "ru",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yatoro_gxg-{width}x{height}.jpg",
+            "tag_ids": [
+                "0569b171-2a2b-476e-a596-5bdfb45a1327"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44275872605",
+            "user_id": "87186401",
+            "user_login": "lenagol0vach",
+            "user_name": "LenaGol0vach",
+            "game_id": "138585",
+            "game_name": "Hearthstone",
+            "type": "live",
+            "title": "ТОП 4 БГ) СКОРА 15000 ММР",
+            "viewer_count": 5897,
+            "started_at": "2021-11-01T07:12:02Z",
+            "language": "ru",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lenagol0vach-{width}x{height}.jpg",
+            "tag_ids": [
+                "0569b171-2a2b-476e-a596-5bdfb45a1327"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "44273367277",
+            "user_id": "88946548",
+            "user_login": "aceu",
+            "user_name": "aceu",
+            "game_id": "1213557674",
+            "game_name": "Happy Game",
+            "type": "live",
+            "title": "NRG aceu // cat // !socials",
+            "viewer_count": 5880,
+            "started_at": "2021-11-01T01:10:30Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_aceu-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "40165015147",
+            "user_id": "32402794",
+            "user_login": "silent",
+            "user_name": "Silent",
+            "game_id": "32982",
+            "game_name": "Grand Theft Auto V",
+            "type": "live",
+            "title": "NoPixel | CORP GARCIA | SileNt Live on !youtube",
+            "viewer_count": 5588,
+            "started_at": "2021-11-01T06:36:36Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_silent-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "43683148652",
+            "user_id": "98506045",
+            "user_login": "mutex",
+            "user_name": "MuTeX",
+            "game_id": "512710",
+            "game_name": "Call of Duty: Warzone",
+            "type": "live",
+            "title": "World Record Attempts! mutexmerch.com | !MERCH !newvid !keeps",
+            "viewer_count": 5540,
+            "started_at": "2021-11-01T07:07:35Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mutex-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ],
+            "is_mature": true
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjp7IkN1cnNvciI6ImV5SnpJam8zTkRnd015NDVORFF3TVRVME1ESTFOeXdpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In0sImEiOnsiQ3Vyc29yIjoiZXlKeklqbzFOVFF3TGprM016SXhNREl3TnpJME15d2laQ0k2Wm1Gc2MyVXNJblFpT25SeWRXVjkifX0"
+    }
+}

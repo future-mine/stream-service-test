@@ -1,0 +1,12 @@
+#_____________________________ Builder Stage __________________________
+FROM node:14.15.1 AS builder
+
+WORKDIR /usr/src/app
+
+COPY ./ ./
+
+RUN npm install --quiet
+
+EXPOSE 8081
+
+CMD ["sh","-c", "node -r ts-node/register -r dotenv/config src/app.ts"]

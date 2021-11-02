@@ -1,0 +1,12 @@
+{
+    "testRegex": "((\\.|/*.)(spec))\\.ts?$",
+    "clearMocks": true,
+    "testEnvironment": "node",
+    "moduleFileExtensions": ["ts", "js", "json", "node"],
+    "transform": {
+        "^.+\\.ts?$": "ts-jest"
+    },
+    "roots": ["<rootDir>"],
+    "collectCoverage": false,
+    "coverageDirectory": "coverage"
+}
