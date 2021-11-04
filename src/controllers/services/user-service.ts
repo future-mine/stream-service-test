@@ -4,7 +4,7 @@ import User from "../../db/models/user"
 import { GetManyResponse } from "../../models/get-many-response"
 import { GetUsersParams } from "../../models/users/get-users-params"
 import { CreationError, NotFoundError, ObjectEmptinessCheck } from "../helper/error-handler"
-import { GetUserQuery } from "../queries/users/get-user-query"
+import { GetUserQueryById, GetUserQueryByTwitchId } from "../queries/users/get-user-query"
 import { GetUsersQuery } from "../queries/users/get-users-query"
 
 export default class UserService {
@@ -46,15 +46,25 @@ export default class UserService {
         return updatedUser
     }
 
-    async getUser(id: number, twitch_id?: number): Promise<User> {
-        const user = await GetUserQuery(id, twitch_id).catch((e) => {
+    async getUserById(id: number): Promise<User> {
+        const user = await GetUserQueryById(id).catch((e) => {
             throw dbErrorHandler(e)
         })
 
         if (isEmpty(user)) {
             throw NotFoundError("User", "user")
         }
+        return user
+    }
 
+    async getUserByTwitchId(twitch_id: number): Promise<User> {
+        const user = await GetUserQueryByTwitchId(twitch_id).catch((e) => {
+            throw dbErrorHandler(e)
+        })
+
+        if (isEmpty(user)) {
+            throw NotFoundError("User", "user")
+        }
         return user
     }
 

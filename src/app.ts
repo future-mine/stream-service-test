@@ -10,7 +10,7 @@ import { RegisterRoutes } from "./routes/routes"
 import { seedDB } from "./db/helper/seed-handler"
 import session from "express-session"
 import passport from "./auths/passport"
-import { serverPort } from "./config"
+import { port } from "./config"
 
 const app: Application = express()
 
@@ -34,7 +34,7 @@ app.use(express.static(__dirname + "/config"))
 
 RegisterRoutes(app)
 
-const server = app.listen(serverPort, async () => {
+const server = app.listen(port, async () => {
     try {
         console.log("running migrations")
 
@@ -44,7 +44,7 @@ const server = app.listen(serverPort, async () => {
 
         await seedDB(knex)
 
-        console.log(`server is running on PORT ${serverPort}`)
+        console.log(`server is running on PORT ${port}`)
     } catch (e) {
         console.log(e)
         console.log("migration failed")

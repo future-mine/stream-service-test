@@ -1,18 +1,13 @@
 import { Application } from "express"
-// import { responseErrorHandler } from "../controllers/helper/error-handler"
-// import UserService from "../controllers/services/user-service"
 import { auth } from "../auths/auth-middleware"
-import { serverPort } from "../config"
-import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "../controllers/constants/general-constants"
+import { host, port } from "../config"
+import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "../controllers/constants"
 import { convertToNumber } from "../controllers/helper/util"
-import CronService from "../controllers/services/cron-service"
 import StreamService from "../controllers/services/stream-service"
 import { GetStreamsParams } from "../models/streams/get-streams-params"
 
 export default (app: Application): void => {
-    // const userService = UserService.getInstance()
     const streamService = StreamService.getInstance()
-    const cronService = CronService.getInstance()
     app.get("/", function (req: any, res) {
         if (req.session && req.session.passport && req.session.passport.user) {
             res.redirect("/dashboard")
@@ -22,8 +17,6 @@ export default (app: Application): void => {
     })
 
     app.get("/dashboard", auth, async function (req: any, res) {
-        cronService.accessToken = req.user.accessToken
-        await cronService.start("0 */15 * * * *")
         const data = req.user.data[0]
         const options = {
             weekday: "long",
@@ -69,7 +62,7 @@ export default (app: Application): void => {
             console.log(total, total_page, page, per_page, first, last)
             res.render("pages/streams", {
                 ...data,
-                streamUrl: `http://localhost:${serverPort}/streams`,
+                streamUrl: `${host}:${port}/streams`,
                 view_count_sort_order: params.view_count_sort_order,
                 view_count_type: params.view_count_type,
                 per_page,

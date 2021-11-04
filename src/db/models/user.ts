@@ -22,14 +22,14 @@ export default class User extends Base {
         required: ["twitch_id", "login", "display_name", "email", "created_at"],
         properties: {
             id: { type: "integer" },
-            twitch_id: { type: "integer" },
+            twitch_id: { type: "string" },
             login: { type: "string" },
             display_name: { type: "string" },
             type: { type: "string" },
             broadcaster_type: { type: "string" },
             description: { type: "string" },
-            profile_image_url: { type: ["string", null], minLength: 1, maxLength: 300 },
-            offline_image_url: { type: ["string", null], minLength: 1, maxLength: 300 },
+            profile_image_url: { type: ["string", null], maxLength: 300 },
+            offline_image_url: { type: ["string", null], maxLength: 300 },
             email: { type: "string" },
             created_at: { type: "string" },
 

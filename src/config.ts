@@ -1,1 +1,2 @@
-export const serverPort = process.env.PORT || 8081
+export const host = "http://localhost"
+export const port = process.env.PORT || 5001
