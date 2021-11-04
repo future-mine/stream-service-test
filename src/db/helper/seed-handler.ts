@@ -2,7 +2,7 @@ import { Knex } from "knex"
 
 export const seedDB = async (knex: Knex): Promise<void> => {
     if (process.env.NODE_ENV === "development") {
-        console.log("seeding Products development database...")
+        console.log("seeding Streams development database...")
         await seedStreams(knex)
     }
 }

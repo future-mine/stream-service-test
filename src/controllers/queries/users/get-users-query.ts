@@ -1,7 +1,7 @@
 import { Page, QueryBuilder } from "objection"
 import User from "../../../db/models/user"
 import { GetUsersParams } from "../../../models/users/get-users-params"
-import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "../../constants/general-constants"
+import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "../../constants"
 
 export const GetUsersQuery = ({
     page,

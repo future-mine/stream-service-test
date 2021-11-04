@@ -1,7 +1,7 @@
 import { Page, QueryBuilder } from "objection"
 import Stream from "../../../db/models/stream"
 import { GetStreamsParams } from "../../../models/streams/get-streams-params"
-import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "../../constants/general-constants"
+import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "../../constants"
 import { MapStreamsQueryParams } from "../../helper/mapper"
 
 export const GetStreamsQuery = (params: GetStreamsParams): QueryBuilder<Stream, Page<Stream>> => {
