@@ -1,7 +1,7 @@
 import passport from "passport"
 import { config } from "dotenv"
 import request from "request"
-import { host, port } from "../config"
+import { host } from "../config"
 const OAuth2Strategy = require("passport-oauth").OAuth2Strategy
 config()
 OAuth2Strategy.prototype.userProfile = function (accessToken: string, done: Function) {
@@ -40,7 +40,7 @@ passport.use(
             tokenURL: "https://id.twitch.tv/oauth2/token",
             clientID: process.env.TWITCH_CLIENT_ID,
             clientSecret: process.env.TWITCH_SECRET,
-            callbackURL: `${host}:${port}/auth/twitch/callback`,
+            callbackURL: `${host}/auth/twitch/callback`,
             state: true,
         },
         function (accessToken: string, refreshToken: string, profile: any, done: Function) {

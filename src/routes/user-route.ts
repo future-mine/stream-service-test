@@ -1,6 +1,6 @@
 import { Application } from "express"
 import { auth } from "../auths/auth-middleware"
-import { host, port } from "../config"
+import { host } from "../config"
 import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "../controllers/constants"
 import { convertToNumber } from "../controllers/helper/util"
 import StreamService from "../controllers/services/stream-service"
@@ -62,7 +62,7 @@ export default (app: Application): void => {
             console.log(total, total_page, page, per_page, first, last)
             res.render("pages/streams", {
                 ...data,
-                streamUrl: `${host}:${port}/streams`,
+                streamUrl: `${host}/streams`,
                 view_count_sort_order: params.view_count_sort_order,
                 view_count_type: params.view_count_type,
                 per_page,
