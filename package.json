@@ -7,7 +7,7 @@
     "scripts": {
         "test": "jest --config ./jest.config.json",
         "test:watch": "npm run test -- --watch",
-        "start": "chmod u+x ./start.sh && ./start.sh",
+        "start": "node build/app.js",
         "start:dev": "nodemon src/app.ts",
         "start:debug": "nodemon --watch 'src/**' --ext 'ts,json,js' --ignore 'src/**/*.spec.ts' --exec 'node -r ts-node/register  --inspect -r dotenv/config src/app.ts'",
         "build": "npx tsc -p .",

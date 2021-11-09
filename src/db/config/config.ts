@@ -8,11 +8,11 @@ const connectWithTcp = (config: Config): Config => {
     return {
         client: "mysql",
         connection: {
-            user: process.env.DB_USER != null ? process.env.DB_USER : "root",
-            password: process.env.DB_PASS != null ? process.env.DB_PASS : "root",
-            database: process.env.DB_NAME != null ? process.env.DB_NAME : "db",
-            host: process.env.DB_HOST != null ? process.env.DB_HOST : "",
-            port: process.env.DB_PORT != null ? Number(process.env.DB_PORT) : 3306,
+            user: process.env.RDS_USERNAME || "root",
+            password: process.env.RDS_PASSWORD || "root",
+            database: process.env.RDS_DB_NAME || "db",
+            host: process.env.RDS_HOSTNAME || "",
+            port: process.env.DRDS_PORT || 3306,
             charset: "utf8mb4",
         },
         ...config,
