@@ -36,15 +36,14 @@ RegisterRoutes(app)
 
 const server = app.listen(port, async () => {
     try {
-        console.log("running migrations")
-
-        await knex.migrate.latest({
-            directory: path.resolve(__dirname + "/db/migrations"),
-        })
-
-        await seedDB(knex)
-
-        console.log(`server is running on PORT ${port}`)
+        if (process.env.NODE_ENV !== "dev") {
+            console.log("running migrations")
+            await knex.migrate.latest({
+                directory: path.resolve(__dirname + "/db/migrations"),
+            })
+            await seedDB(knex)
+            console.log(`server is running on PORT ${port}`)
+        }
     } catch (e) {
         console.log(e)
         console.log("migration failed")

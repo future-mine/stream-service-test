@@ -33,10 +33,11 @@ export const getConfig = (): Config => {
         },
         migrations: {
             directory: path.resolve(__dirname, "..", "migrations"),
+            extension: process.env.NODE_ENV === "dev" ? "ts" : "js",
         },
         seeds: {
             directory: path.resolve(__dirname, "..", "seeds"),
-            extension: ["js", "ts"],
+            extension: process.env.NODE_ENV === "dev" ? "ts" : "js",
         },
         debug: process.env.NODE_ENV === "production",
     }

@@ -61,16 +61,25 @@ export default class StreamService {
 
         return updatedStream
     }
+    async updateStreams(streams: Stream[]): Promise<Stream[]> {
+        if (isEmpty(streams)) {
+            EmptyObjectErr("Streams")
+        }
+        const updatedStreams = await Stream.transaction(async (trx) => {
+            return await Stream.query(trx).upsertGraphAndFetch(streams)
+        }).catch((e) => {
+            throw dbErrorHandler(e)
+        })
 
+        return updatedStreams
+    }
     async getStream(id: number, twitch_id?: number): Promise<Stream> {
         const stream = await GetStreamQuery(id, twitch_id).catch((e) => {
             throw dbErrorHandler(e)
         })
-
         if (isEmpty(stream)) {
             throw NotFoundError("Stream", "stream")
         }
-
         return stream
     }
 

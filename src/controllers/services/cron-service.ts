@@ -1,4 +1,4 @@
-import cron from "node-cron"
+// import cron from "node-cron"
 import Stream from "../../db/models/stream"
 import StreamService from "./stream-service"
 // import StreamService from "../services/stream-service"
@@ -7,7 +7,7 @@ import { clearEmojis } from "../helper/util"
 
 export default class CronService {
     private static instance: CronService
-    private cron: any
+    // private cron: any
     private streamService: any
     public accessToken: string = ""
     private constructor() {}
@@ -53,24 +53,30 @@ export default class CronService {
             })
             if (streams.length > 0) {
                 this.streamService = StreamService.getInstance()
-                const count = await this.streamService.deleteAll()
-                console.log("count===========>", count)
-                const createdStreams = await this.streamService.createStreams(streams)
-                return createdStreams
+                // const count = await this.streamService.deleteAll()
+                const dbStreams = await this.streamService.getStreams({
+                    page: "0",
+                    per_page: "1000",
+                })
+                console.log("count===========>", dbStreams.length)
+                // const createdStreams = await this.streamService.createStreams(streams)
+                // return createdStreams
             }
         } catch (err) {
             console.log(err)
         }
     }
     async start(rule: string): Promise<void> {
-        console.log("cron job started", this.cron)
-        if (this.cron) {
-            return
-        } else {
-            // await this.run()
-            this.cron = cron.schedule(rule, async () => {
-                await this.run()
-            })
-        }
+        console.log(rule)
+        // await this.run()
+
+        // console.log("cron job started", this.cron)
+        // if (this.cron) {
+        //     return
+        // } else {
+        //     this.cron = cron.schedule(rule, async () => {
+        //         await this.run()
+        //     })
+        // }
     }
 }
