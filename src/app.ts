@@ -48,7 +48,7 @@ const server = app.listen(port, async () => {
     } catch (e) {
         console.log(e)
         console.log("migration failed")
-        process.kill(process.pid, "SIGTERM")
+        // process.kill(process.pid, "SIGTERM")
     }
 })
 
