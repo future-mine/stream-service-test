@@ -10,7 +10,8 @@ export default class Database {
     private model: KnexType<any, unknown[]>
 
     private constructor() {
-        this.knex = Knex(getConfig())
+        const config = getConfig()
+        this.knex = Knex(config)
         this.model = Model.knex(this.knex)
     }
 

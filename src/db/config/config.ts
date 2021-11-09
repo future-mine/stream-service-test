@@ -5,7 +5,7 @@ import process from "process"
 
 const connectWithTcp = (config: Config): Config => {
     // Establish a connection to the database
-    return {
+    const fullConfig = {
         client: "mysql",
         connection: {
             user: process.env.RDS_USERNAME || "root",
@@ -17,6 +17,8 @@ const connectWithTcp = (config: Config): Config => {
         },
         ...config,
     }
+    console.log("Full database config==========>", fullConfig)
+    return fullConfig
 }
 
 export const getConfig = (): Config => {
