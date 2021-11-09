@@ -2,7 +2,7 @@
 import { Config } from "knex"
 // import path from "path"
 import process from "process"
-
+import path from "path"
 const connectWithTcp = (config: Config): Config => {
     // Establish a connection to the database
     const fullConfig = {
@@ -32,10 +32,11 @@ export const getConfig = (): Config => {
             createRetryIntervalMillis: 200,
         },
         migrations: {
-            directory: "./db/migrations",
+            directory: path.resolve(__dirname, "..", "migrations"),
         },
         seeds: {
-            directory: "./db/seeds",
+            directory: path.resolve(__dirname, "..", "seeds"),
+            extension: ["js", "ts"],
         },
         debug: process.env.NODE_ENV === "production",
     }
